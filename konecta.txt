@@ -1,0 +1,19 @@
+sentencia 1:
+
+select * from products order by stock desc limit 1;
+
+sentencia 2:
+
+select sum(a.cantidad) cantidad, b.nombre from ventas a , products b where a.id_producto = b.id group by  b.nombre order by 1 limit 1;
+
+
+/********************************/
+base de datos: konecta
+clave: 123
+puerto: 5423
+usuario: postgres
+ip: localhost
+
+
+
+
